@@ -2,13 +2,14 @@ import { createApp } from "vue";
 import { createRouter } from "vue-router";
 import App from "./App.vue";
 import router from "./router";
+import './index.css';
 
 
 import * as Sentry from "@sentry/vue";
 
-import LogRocket from 'logrocket'
-LogRocket.init('pat:r0pvox:eco-stock:zr7fLuqJRro693_EeXMkjrkof5JPn5cC_gFPkhqjMzI')
-const app = createApp({App});
+// import LogRocket from 'logrocket'
+// LogRocket.init('pat:r0pvox:eco-stock:zr7fLuqJRro693_EeXMkjrkof5JPn5cC_gFPkhqjMzI')
+const app = createApp(App);
 
 Sentry.init({
   app,

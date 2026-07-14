@@ -162,7 +162,7 @@ function loginWithGoogle() {
               @input="emailError = ''"
             />
           </div>
-          <p v-if="emailError" class="mt-1.5 text-xs font-semibold text-red-500">{{ emailError }}</p>
+          <!-- <p v-if="emailError" class="mt-1.5 text-xs font-semibold text-red-500">{{ emailError }}</p> -->
         </label>
 
         <!-- Mot de passe -->
