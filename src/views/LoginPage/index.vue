@@ -210,12 +210,12 @@ function loginWithGoogle() {
           {{ loading ? 'Connexion...' : 'Connecte-toi' }}
         </button>
 
-        <p class="mt-6 text-center text-sm text-slate-500">
+        <!-- <p class="mt-6 text-center text-sm text-slate-500">
           Pas encore de compte  ?
           <RouterLink to="/signup" class="font-semibold text-emerald-700 hover:underline">
             S'inscrire
           </RouterLink>
-        </p>
+        </p> -->
       </form>
     </section>
   </main>

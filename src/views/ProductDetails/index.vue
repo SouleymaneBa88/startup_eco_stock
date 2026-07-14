@@ -73,6 +73,13 @@ function closeTransferModal() {
 // Appelle l'action DRF : POST /api/products/{id}/transfer_product/
 async function transferProduct() {
   transferError.value = '';
+   console.log("Début transfert");
+
+  console.log("Produit :", product.value.id);
+
+  console.log("Destination :", transferForm.destination_id);
+
+  console.log("Quantité :", transferForm.quantite);
 
   try {
     await api.post(`products/${product.value.id}/transfer_product/`, {

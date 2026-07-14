@@ -9,7 +9,7 @@ const navigationItems = [
   { label: 'Tableau de bord', route: '/dashboard', icon: 'grid' },
   { label: 'Entrepôts', route: '/warehouses', icon: 'warehouse' },
   { label: 'Produits', route: '/products', icon: 'box' },
-  { label: 'Transfert', route: '/move', icon: 'checklist' },
+  // { label: 'Transfert', route: '/move', icon: 'checklist' },
 ];
 
 // Sert à mettre visuellement en avant la route active.
