@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sentry/vue": "^10.65.0",
     "axios": "^1.18.1",
+    "logrocket": "^12.1.1",
     "vue": "^3.5.31",
     "vue-router": "^4.5.0"
   },
